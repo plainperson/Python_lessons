@@ -1,0 +1,67 @@
+2. time = int(input('Введите количество секунд'))
+
+hour = time // 3600
+min = ((time - (hour*3600))//60)
+sec = (time - ((hour*3600)+(min*60)))
+
+
+
+print(f'{hour} часов, {min} минут, {sec} секунд')
+
+
+3. n = int(input('введите число'))
+
+l = n * 11
+m = n * 111
+
+sum = n + l + m
+
+print (sum)
+
+
+4. 
+
+5, 6. prof = int(input('Введите сумму выручки'))
+exp = int(input('Введите размер издержек'))
+
+
+while True:
+    if prof > exp:
+        print('фирма работает с прибылью')
+        gain = prof - exp
+        print('прибыль составила', {gain},'долларов')
+        r = gain / prof
+        print('рентабельность фирмы составила', {r})
+        n = int(input('Введите количество рабочих'))
+        n = gain / n
+        print('каждый сотрудник фирмы заработал', {n}, 'долларов')
+
+
+
+        break
+
+
+    else:
+        print('фирма работает с убытком')
+
+7. a = int(input('Количество километров первого дня'))
+b = int(input('Количество измеряемых километров'))
+
+a > 0
+
+while True:
+    if a > b:
+        break
+
+    if a < b:
+        a = a + a / 10
+        day = b / a
+
+print('day')
+
+
+
+
+
+
+
